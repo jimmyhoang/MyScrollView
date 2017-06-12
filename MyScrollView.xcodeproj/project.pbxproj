@@ -14,6 +14,7 @@
 		FF087FF81EEEFE7A00CB83D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF087FF71EEEFE7A00CB83D7 /* Assets.xcassets */; };
 		FF087FFB1EEEFE7A00CB83D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF087FF91EEEFE7A00CB83D7 /* LaunchScreen.storyboard */; };
 		FF0880061EEEFE7A00CB83D7 /* MyScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0880051EEEFE7A00CB83D7 /* MyScrollViewTests.m */; };
+		FF0880121EEF025800CB83D7 /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0880111EEF025800CB83D7 /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FF0880011EEEFE7A00CB83D7 /* MyScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0880051EEEFE7A00CB83D7 /* MyScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollViewTests.m; sourceTree = "<group>"; };
 		FF0880071EEEFE7A00CB83D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0880101EEF025800CB83D7 /* MyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		FF0880111EEF025800CB83D7 /* MyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +88,9 @@
 				FF087FEF1EEEFE7A00CB83D7 /* AppDelegate.m */,
 				FF087FF11EEEFE7A00CB83D7 /* ViewController.h */,
 				FF087FF21EEEFE7A00CB83D7 /* ViewController.m */,
+				FF0880101EEF025800CB83D7 /* MyScrollView.h */,
+				FF0880111EEF025800CB83D7 /* MyScrollView.m */,
 				FF087FF41EEEFE7A00CB83D7 /* Main.storyboard */,
-				FF087FF71EEEFE7A00CB83D7 /* Assets.xcassets */,
-				FF087FF91EEEFE7A00CB83D7 /* LaunchScreen.storyboard */,
-				FF087FFC1EEEFE7A00CB83D7 /* Info.plist */,
 				FF087FEB1EEEFE7A00CB83D7 /* Supporting Files */,
 			);
 			path = MyScrollView;
@@ -97,6 +99,9 @@
 		FF087FEB1EEEFE7A00CB83D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF087FF71EEEFE7A00CB83D7 /* Assets.xcassets */,
+				FF087FF91EEEFE7A00CB83D7 /* LaunchScreen.storyboard */,
+				FF087FFC1EEEFE7A00CB83D7 /* Info.plist */,
 				FF087FEC1EEEFE7A00CB83D7 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -216,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF087FF31EEEFE7A00CB83D7 /* ViewController.m in Sources */,
+				FF0880121EEF025800CB83D7 /* MyScrollView.m in Sources */,
 				FF087FF01EEEFE7A00CB83D7 /* AppDelegate.m in Sources */,
 				FF087FED1EEEFE7A00CB83D7 /* main.m in Sources */,
 			);
